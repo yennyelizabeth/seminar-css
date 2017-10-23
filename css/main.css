@@ -1,0 +1,57 @@
+/*Setear nuestros archivos*/
+
+/*tratar de ordenar en orde alfabetico*/
+
+body {
+        box-sizing: border-box;
+        margin: 0;
+        border: 0;
+        font-family: 'Raleway', sans-serif;
+        color: #303030;
+}
+
+
+/*Clases Reutilizables*/
+/*a quien le coloque esta clase, va ha transformar el texto en mayusculas*/
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*Para poderle poner modificar alto ancho, y visualize en linea*/
+.box-header {
+  display: inline-block;
+}
+/*Clases Específicas*/
+.logo-header {
+  width : 200px;
+}
+
+li {
+  display: inline;
+  list-style: none;
+}
+
+li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header {
+  position:relative;
+}
+
+nav {
+  position:absolute;
+  right: 5%;
+  top: 50%;
+  transform: traslateY(-50%);
+}
+
+section {
+  text-align: center;
+}
+
+div {
+   display: inline-block;
+   width: 33% ;
+}
