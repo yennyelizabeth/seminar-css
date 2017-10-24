@@ -15,6 +15,8 @@ body {
 /*a quien le coloque esta clase, va ha transformar el texto en mayusculas*/
 .text-uppercase {
   text-transform: uppercase;
+  margin: 5px;
+
 }
 
 /*Para poderle poner modificar alto ancho, y visualize en linea*/
@@ -53,5 +55,27 @@ section {
 
 div {
    display: inline-block;
-   width: 33% ;
+   width: 30% ;
+   text-align: center;
+}
+
+span {
+  font-size: 250%;
+}
+
+ul {
+  margin: 10px;
+}
+
+.icon-envelop:hover , .icon-camera:hover , .icon-display:hover   {
+  color: #f9a91a;
+}
+
+button {
+  padding: 10px;
+  background: #f9a91a;
+}
+
+.text-uppercase:hover {
+  color: #f9a91a;
 }
